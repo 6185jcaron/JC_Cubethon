@@ -684,8 +684,9 @@ GameObject:
   - component: {fileID: 914120161}
   - component: {fileID: 914120163}
   - component: {fileID: 914120162}
+  - component: {fileID: 914120164}
   m_Layer: 5
-  m_Name: Credits
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -753,6 +754,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914120160}
   m_CullTransparentMesh: 1
+--- !u!114 &914120164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914120160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65718f5ec86277148a3874208b241864, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1004407805
 GameObject:
   m_ObjectHideFlags: 0
@@ -989,13 +1002,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 914120160}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 914120164}
+        m_TargetAssemblyTypeName: menu, Assembly-CSharp
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
