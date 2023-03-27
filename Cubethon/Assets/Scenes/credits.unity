@@ -283,15 +283,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'J(oseph)(oey)(oe) Caron
-
-    and my crippling need for validation
-
-    ...
-    and loneliness
-
-
-    Planes are neat though :)'
+  m_text: J(oseph)(oey)(oe) Caron, a fellow pumpkin lover
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
